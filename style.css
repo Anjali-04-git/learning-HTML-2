@@ -1,0 +1,24 @@
+body{
+    background-color: yellow;
+}
+.heading1{
+    background-color: lightblue;
+}
+
+.head2{
+    color: tomato;
+    font-size: 50px;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    word-spacing: 40px;
+    letter-spacing: 40px;
+    text-shadow: -13px -14px 5px blue;
+}
+.para{
+    font-weight: bold;
+    text-align: right;
+}
+.head3{
+    font-family: verdana;
+}
