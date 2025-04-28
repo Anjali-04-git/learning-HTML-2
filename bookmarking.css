@@ -1,0 +1,10 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+.head{
+    background-color: red;
+    color: white;
+    padding: 20px;
+}
