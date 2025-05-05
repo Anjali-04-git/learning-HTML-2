@@ -1,0 +1,26 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 40px;
+}
+.navbar1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around 5px;
+    font-size: 50px;
+    font-family: Arial Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+    font-weight: 700;
+}
+.logo{
+    cursor: pointer;
+}
+.no-border{
+    border: none;
+    background-color: white;
+
+}

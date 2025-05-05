@@ -1,0 +1,7 @@
+.hero{
+    background-image: url(R.jpg);
+    height: 700px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
