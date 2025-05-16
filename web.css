@@ -1,26 +1,36 @@
-.navbar{
+.web{
+    background-image: url(netflix.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px
+}
+
+nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     font-size: 40px;
+    margin: 0;
 }
-.navbar1{
-    display: flex;
-    align-items: center;
-    justify-content: space-around 5px;
-    font-size: 50px;
-    font-family: Arial Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-decoration: underline;
-    font-weight: 700;
+.color{
+    background-color: red;
+    border: none;
 }
 .logo{
+    width: 150;
     cursor: pointer;
 }
-.no-border{
-    border: none;
-    background-color: white;
-
+nav button{
+    border: 0;
+    font-size: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.web1{
+    text-align: center;
+    color: white
+    padding-top: 200px;
 }

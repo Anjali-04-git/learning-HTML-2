@@ -1,0 +1,15 @@
+.travel{
+    background-image: url(travel1.webp);
+    height: 700px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 300px;
+    padding-left: 200px;
+    font-family: Arial;
+    font-size: 20px;
+}
+.color{
+    background-color: purple;
+    border: none;
+}
