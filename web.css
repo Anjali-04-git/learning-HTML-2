@@ -1,36 +1,170 @@
-.web{
-    background-image: url(netflix.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 800px
-}
-
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 30px;
-    padding-right: 30px;
-    font-size: 40px;
+*{
     margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
-.color{
-    background-color: red;
-    border: none;
+body{
+    background-color: black;
+    color: white;
+}
+.header{
+    width:100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.708), rgba(0, 0, 0, 0.703)) ,url(netflix.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 10px 8%;
+
+}
+nav{
+    c
 }
 .logo{
-    width: 150;
+    width: 150px;
     cursor: pointer;
 }
 nav button{
     border: 0;
-    font-size: 15px;
-    margin-left: 10px;
+    outline: 0;
+    background: red;
+    color: white;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin: 10px;
     cursor: pointer;
 }
-.web1{
+.headings{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
-    color: white
-    padding-top: 200px;
+    margin-top: 100px;
+    
+    
+}
+.headings h1{
+    font-size: 60px;
+
+}
+.headings h2{
+    margin-bottom: 20px;
+}
+.email{
+    background: white;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+    justify-content: space-between;
+}
+.email input{
+    border: 0;
+    outline: 0;
+    margin: 20px;
+}
+.email button{
+    background: red;
+    border: 0;
+    font-size: 15px;
+    cursor: pointer;
+    color: white;
+    padding: 19px 36px;
+}
+.main{
+    padding: 50px 12%;
+    font-size: 22px;
+
+}
+.main1{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 50px 0;
+    border-top: 6px solid grey;
+}
+.main2{
+    margin-bottom: 20px;
+}
+.image{
+    margin-bottom: 20px;
+}
+
+.image img{
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+.main h2{
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.footer{
+    padding: 50px 10px;
+    border-top: 6px solid grey;
+    color:rgba(255, 255, 255, 0.686)
+}
+.footer h3{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.footer .vert{
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+    display: inline-block;
+}
+
+.footer .vert a{
+    display: block;
+    text-decoration: none;
+    color: grey;
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: inline-block;
+    justify-content: space-evenly;
+}
+.footer .hor{
+    padding: 10px 0;
+    display: inline-block;
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width:600px){
+    .logo{
+        width:100px;
+
+    }
+    .nav button{
+        padding: 5px 10px;
+    }
+    .headings{
+        padding-top: 15px;
+        flex-wrap: wrap;
+    }
+    .headings h1{
+        font-size: 30px;
+    }
+    .email button{
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+    .main2 , .image{
+        width: 50%;
+        
+    }
+    .main h2{
+        font-size: 30px;
+        width: 50vh;
+    }
+    .main p{
+        font-size: 15px;
+    }
+    
 }
